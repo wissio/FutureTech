@@ -48,7 +48,7 @@
 
     &__menu {
         @include mobile {
-            overflow-y: auto;
+            overflow-y: hidden;
         }
         &-list {
             display: flex;
@@ -65,7 +65,7 @@
         }
         &-link {
             padding: rem(14) rem(24);
-            color: var(--color-gray-50);
+            color: var(--color-grey-50);
 
             @include laptop {
                 padding: rem(10) rem(18);
